@@ -106,7 +106,7 @@ header p{
 }
 
 hr.style1{
-  border-top: 1px solid white;
+  border-top: 0.063em solid white;
   width: 100%;
   display: inline-block;
 }
@@ -188,9 +188,9 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 }
 
 .description{
-  border-right: 1px solid white;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-right: 0.063em solid white;
+  border-top: 0.063em solid white;
+  border-bottom: 0.063em solid white;
   padding: 2em 2em 2em 0;
   margin-left: 0;
 }
@@ -204,7 +204,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 }
 
 .description-xs{
-  border: 1px solid white;
+  border: 0.063em solid white;
   text-align: center;
   margin: 1em;
   padding: 1em;
@@ -235,7 +235,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 
 .drive button{
   background-color: #FBBD00;
-  border: 1px solid #FBBD00;
+  border: 0.063em solid #FBBD00;
   color: white;
   font-weight: bold;
 }
@@ -249,7 +249,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 
 .fare .form-control{
   background-color: transparent;
-  border: 1px solid white;
+  border: 0.063em solid white;
   border-radius: 0.5em;
   margin: 1em 0;
   width: 20em;  
@@ -269,7 +269,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 
 .map{
   padding: 1em;
-  border: 1px solid white;
+  border: 0.063em solid white;
   width: 100%;
   height: 70%;
 }
