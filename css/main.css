@@ -111,6 +111,17 @@ hr.style1{
   display: inline-block;
 }
 
+.sideLines::after, .sideLines::before{
+  content: " ";
+  display: inline-block;
+  width: 20%;
+  height: 0.1em;
+  background-color: #FFFFFF ;
+  margin: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
 /*------ register modal ------*/
 
 #register{
@@ -260,7 +271,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
   padding: 1em;
   border: 1px solid white;
   width: 100%;
-  height: 50%;
+  height: 70%;
 }
 
 /*_______ FOOTER _________*/
@@ -279,7 +290,19 @@ footer a{
   color: white;
 }
 
+footer a:hover{
+  color: #FBBD00;
+  text-decoration: none;
+}
+
 footer img{
   margin: 0.5em 0;
 }
 
+.social{
+  margin-top: 15em;
+}
+
+.store{
+  margin-top: 7em;
+}
