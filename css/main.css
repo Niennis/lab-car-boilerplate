@@ -1,4 +1,6 @@
 /* Los estilos de tu proyecto */
+
+/*_______ NAVBAR _________*/
 .navbar-default{
   background-color: white;
   padding: 2em 0;
@@ -9,6 +11,7 @@
   color: black;
 }
 
+/*_______ HEADER _________*/
 header{
   background-image: url(../assets/images/taxi.jpg);
   background-position: 50% 90%;
@@ -74,21 +77,23 @@ hr.style1{
   margin: auto;
 }
 
+/*_______ DESCRIPTION _________*/
 .descriptionContainer{
   background-color: #FBBD00;
   color: white;
-  padding: 3em 3em 3em 3em;
+  padding: 2em;
 }
 
 .description{
   border-right: 1px solid white;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  padding: 3em 3em 3em 8em;
+  padding: 2em 2em 2em 0;
+  margin-left: 0;
 }
 
-.description img{
-  width: 100%;
+.descriptionCol{
+  margin-left: -2em;    
 }
 
 .description p{
@@ -98,13 +103,20 @@ hr.style1{
 .description-xs{
   border: 1px solid white;
   text-align: center;
+  margin: 1em;
+  padding: 1em;
 }
 
 .description-xs img{
-  width: 80%;
-  padding: 2em;
+  margin: auto;
 }
 
+.descriptionContainer h4{
+  margin-left: 2em;
+  font-size: 1.5em;   
+}
+
+/*_______ BECOME A DRIVER _________*/
 .driveContainer{
   background-image: url(../assets/images/conduce.jpg);
   background-size: cover;
@@ -125,6 +137,7 @@ hr.style1{
   font-weight: bold;
 }
 
+/*_______ FARES AND ROUTES _________*/
 .fare{
   background-color: #FBBD00;
   padding: 1em;
@@ -158,6 +171,7 @@ hr.style1{
   height: 50%;
 }
 
+/*_______ FOOTER _________*/
 footer{
   background-color: #2F2F2F;
   padding-top: 2em;
