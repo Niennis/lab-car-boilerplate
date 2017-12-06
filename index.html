@@ -32,7 +32,7 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-    <!-- Modal -->
+    <!-- LOGIN MODAL -->
     <div class="modal fade" id="sesion" role="dialog">
       <div class="modal-dialog">        
         <!-- Modal content-->
@@ -74,12 +74,10 @@
               <div class="modal-dialog">            
                 <!-- Modal content-->
                 <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <button type="button" class="btn btn-default" dara-dismiss="modal">Ya tienes una cuenta?</button>
-                    <h5>O crea una cuenta nueva</h5>
-                  </div>
                   <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="btn btn-default btn-already" dara-dismiss="modal">¿Ya tienes una cuenta?</button>
+                    <h5>O crea una cuenta nueva</h5>
                     <form class="form-inline">
                       <div class="form-group">
                         <input type="text" class="form-control" id="exampleInputName2" placeholder="Nombre">
@@ -88,14 +86,14 @@
                         <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Apellido">
                       </div>
                     </form>
-                    <input type="text" class="form-control" placeholder="Correo electrónico: ejemplo@correo.com">
-                    <input type="text" class="form-control" placeholder="Teléfono">
-                    <input type="text" class="form-control" placeholder="Ciudad">
-                    <input type="text" class="form-control" placeholder="Contraseña">
-                    <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
+                    <input type="text" class="form-control userData" placeholder="Correo electrónico: ejemplo@correo.com">
+                    <input type="text" class="form-control userData" placeholder="Teléfono">
+                    <input type="text" class="form-control userData" placeholder="Ciudad">
+                    <input type="text" class="form-control userData" placeholder="Contraseña">
+                    <input type="text" class="form-control userData" placeholder="(Opcional) Código de invitación">
                     <div class="dropdown">
                       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        ¡Cómo te enteraste de nosotros?
+                        ¿Cómo te enteraste de nosotros?
                         <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -105,7 +103,7 @@
                         <li><a href="#">Otros</a></li>
                       </ul>
                     </div>                    
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
+                    <button type="button" class="btn btn-default btnSend" data-dismiss="modal">Send</button>
                   </div>            
                 </div>
               </div>
@@ -135,7 +133,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <form>
                       <div class="form-group">
-                        <label for="exampleInputEmail1">¿Tienes vehículo de 4 puertas?</label>
+                        <label>¿Tienes vehículo de 4 puertas?</label>
                         <div class="dropdown">
                           <select class="selectpicker btn btn-default">
                             <option>Sí</option>
@@ -144,7 +142,7 @@
                         </div>                        
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputPassword1">Marca</label>
+                        <label>Marca</label>
                         <div class="dropdown">
                           <select class="selectpicker btn btn-default">
                             <option>Ford</option>
@@ -156,7 +154,7 @@
                       </div> 
                       <h6>¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="">sociosmdv@uber.com</a></h6>
                       <div class="form-group">
-                        <label for="exampleInputPassword1">Modelo</label>
+                        <label>Modelo</label>
                         <div class="dropdown">
                           <select class="selectpicker btn btn-default">
                             <option>Fiesta</option>
@@ -167,7 +165,7 @@
                         </div> 
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputPassword1">Año</label>
+                        <label>Año</label>
                         <div class="dropdown">
                           <select class="selectpicker btn btn-default">
                             <option>2017</option>
@@ -178,13 +176,12 @@
                         </div> 
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputPassword1">Número de la matrícula</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label>Número de la matrícula</label>
+                        <input type="number" class="form-control plate" id="exampleInputPassword1" placeholder="Matrícula">
                       </div>
                       <h6>La información de la matrícula ayuda a los clientes a identificar tu vehículo.</h6>
                     </form>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    
+                    <button type="button" class="btn btn-default send" data-dismiss="modal">Enviar</button>  
                   </div>                 
                 </div>            
               </div>

@@ -11,6 +11,58 @@
   color: black;
 }
 
+.navbar-default .navbar-nav>li:hover{
+  background-color: #FBBD00;
+  border-radius: 1em;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+}
+  
+
+/*------ login modal ------*/
+.iconUser{
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.modal-header{
+  margin: 0 5em;
+}
+
+.modal-content{
+  background-color: #2F2F2F;
+}
+
+.input-group{
+  margin: 1em auto;
+  width: 50%;
+}
+
+#sesion .btn{
+  display: block;
+  margin: auto;
+  background-color: #FBBD00;
+  border-color: #FBBD00;
+  width: 50%;
+}
+
+#sesion p{
+  color: white;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+#sesion a{
+  color: #FBBD00;
+}
+
+.close{
+  color: #FBBD00;
+}
+
 /*_______ HEADER _________*/
 header{
   background-image: url(../assets/images/taxi.jpg);
@@ -59,22 +111,62 @@ hr.style1{
   display: inline-block;
 }
 
+/*------ register modal ------*/
+
 #register{
-  background-color: rgba(0, 0, 0, 0.418);
+  text-align: center;
 }
 
-.modal-header{
-  margin: 0 5em;
-}
-
-.modal-content{
-  background-color: #2F2F2F;
-}
-
-.iconUser{
-  width: 20%;
+#register .btn-already{
+  background-color: #FBBD00;
+  border-color: #FBBD00;
+  width: 50%;
   display: block;
-  margin: auto;
+  margin: 2em auto 0;
+}
+
+.userData{
+  width: 70%;
+  margin: 1em auto;
+}
+
+button#dropdownMenu1.btn.btn-default.dropdown-toggle{
+  margin: 0 auto 1em;
+  width: 70%;
+}
+
+#register .dropdown-menu{
+  width: 70%;
+  margin-left: 6em; 
+}
+
+#register .btnSend{
+  background-color: #FBBD00;
+  border-color: #FBBD00;
+  width: 70%;
+}
+
+/*------ become a driver modal ------*/
+#driver .modal-content{
+  padding: 2em;
+}
+
+#driver select{
+  width: 90%;
+}
+
+#driver a{
+  color: #FBBD00;
+}
+
+.plate{
+  width: 90%;
+}
+
+#driver .send{
+  background-color: #FBBD00;
+  border-color: #FBBD00;
+  width: 90%;
 }
 
 /*_______ DESCRIPTION _________*/
@@ -189,9 +281,5 @@ footer a{
 
 footer img{
   margin: 0.5em 0;
-}
-
-.social{
-  vertical-align: bottom;  
 }
 
