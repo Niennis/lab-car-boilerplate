@@ -210,13 +210,12 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
   padding: 1em;
 }
 
-.description-xs img{
-  margin: auto;
+.descriptionContainer h4{
+  font-size: 1.5em;   
 }
 
-.descriptionContainer h4{
-  margin-left: 2em;
-  font-size: 1.5em;   
+.faster{
+  margin-left: 1em;
 }
 
 /*_______ BECOME A DRIVER _________*/
@@ -252,7 +251,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
   border: 0.063em solid white;
   border-radius: 0.5em;
   margin: 1em 0;
-  width: 20em;  
+  width: 90%;  
 }
 
 .fare .form-control::placeholder{
@@ -265,6 +264,8 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 
 .route{
   font-weight: bold;
+  display: block;
+  margin: auto;
 }
 
 .map{
