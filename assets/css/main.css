@@ -65,7 +65,7 @@
 
 /*_______ HEADER _________*/
 header{
-  background-image: url(../assets/images/taxi.jpg);
+  background-image: url(../../assets/images/taxi.jpg);
   background-position: 50% 90%;
   background-size: cover;
   padding: 14% 0;
@@ -220,7 +220,7 @@ button#dropdownMenu1.btn.btn-default.dropdown-toggle{
 
 /*_______ BECOME A DRIVER _________*/
 .driveContainer{
-  background-image: url(../assets/images/conduce.jpg);
+  background-image: url(../../assets/images/conduce.jpg);
   background-size: cover;
   background-position: center;
 }
